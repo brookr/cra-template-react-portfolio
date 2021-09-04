@@ -1,0 +1,28 @@
+{
+  "package": {
+    "name": "react-frontend-dev-portfolio",
+    "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "bootstrap": "^4.5.2",
+      "jquery": "^3.5.1",
+      "react-awesome-slider": "^4.1.0",
+      "react-bootstrap": "^1.3.0",
+      "react-ga": "^3.1.2",
+      "react-switch": "^5.0.1",
+      "react-typical": "^0.1.3",
+      "react-vertical-timeline-component": "^3.3.1"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "devDependencies": {
+      "@iconify/icons-logos": "^1.0.12",
+      "@iconify/react": "^1.1.3",
+      "gh-pages": "^3.1.0",
+      "node-sass": "^6.0.1"
+    }
+  }
+}
