@@ -1,6 +1,6 @@
 {
-    "name": "cra-template-code-fellows-portfolio",
-    "version": "0.0.1",
+    "name": "cra-template-react-portfolio",
+    "version": "0.1.0",
     "keywords": [
       "react",
       "create-react-app",
@@ -9,15 +9,15 @@
     "description": "The starter template for CRA Portfolio.",
     "repository": {
       "type": "git",
-      "url": "https://github.com/codefellows/cra-template-code-fellows-portfolio.git",
-      "directory": "packages/cra-template"
+      "url": "https://github.com/codefellows/cra-template-react-portfolio.git",
+      "directory": "packages/cra-template-react-portfolio"
     },
     "license": "MIT",
     "engines": {
       "node": ">=14"
     },
     "bugs": {
-      "url": "https://github.com/facebook/create-react-app/issues"
+      "url": "https://github.com/codefellows/cra-template-react-portfolio/issues"
     },
     "files": [
       "template",
