@@ -1,7 +1,7 @@
 {
   "package": {
-    "name": "cra-template-react-portfolio",
-    "homepage": "https://codefellows.github.io/cra-template-react-portfolio/",
+    "name": "react-portfolio",
+    "homepage": ".",
     "version": "0.0.1",
     "private": true,
     "dependencies": {
