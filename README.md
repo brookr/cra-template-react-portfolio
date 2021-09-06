@@ -12,6 +12,14 @@ To use this template, run:
 
 > `npx create-react-app my-app --template react-portfolio`
 
+Then, take a look at the generated code:
+
+> `cd my-app`
+
+And fire up your React Portfolio:
+
+> `npm start`
+
 ## Make it your own
 
 After creating a new app based on the template, you can modify the text, icons used, colors, and anything else you like to customize the portfolio site to your own personality. 
