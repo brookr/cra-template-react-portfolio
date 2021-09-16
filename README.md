@@ -24,6 +24,6 @@ And fire up your React Portfolio:
 
 After creating a new app based on the template, you can modify the text, icons used, colors, and anything else you like to customize the portfolio site to your own personality. 
 
-Follow the existing patterns in the `portfolio_shared_data.json` and the `res_primaryLanguage.json` files to populate the site with your own info. 
+Follow the existing patterns in the three JSON files found in the `/public` directory to populate the site with your own info. This template supports 2 languages.
 
-Then, add a second language if you like, and adjust the UI, layout, and design as desired. 
+Then adjust the UI, layout, and design as desired. 
