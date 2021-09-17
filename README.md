@@ -10,11 +10,11 @@ This project wraps up the portfolio into a CRA template for easy spin up, with a
 
 To use this template, run:
 
-> `npx create-react-app my-app --template react-portfolio`
+> `npx create-react-app portfolio --template react-portfolio`
 
 Then, take a look at the generated code:
 
-> `cd my-app`
+> `cd portfolio`
 
 And fire up your React Portfolio:
 
