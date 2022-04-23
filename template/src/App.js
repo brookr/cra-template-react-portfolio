@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
@@ -69,8 +69,7 @@ class App extends Component {
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        this.setState({ sharedData: data }, () => document.title = `${this.state.sharedData.basic_info.name}`);
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -82,20 +81,22 @@ class App extends Component {
     return (
       <Router>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <Switch>
-          <Route exact path="/">
-            <Home
+        <Routes>
+          <Route 
+            exact path="/" 
+            element={<Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
-            />
+            />}>
           </Route>
-          <Route path="/about">
-            <About
+          <Route 
+            path="/about" 
+            element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
-            />
+            />}>
           </Route>
-        </Switch>
+        </Routes>
         <Footer 
           sharedBasicInfo={this.state.sharedData.basic_info}
           applyPickedLanguage={this.applyPickedLanguage} 
